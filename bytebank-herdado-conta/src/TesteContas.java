@@ -2,6 +2,9 @@
 public class TesteContas {
 
 	public static void main(String[] args) {
+
+		ContaCorrente outra = null;
+		outra.deposita(200);
 					
 		ContaCorrente cc = new ContaCorrente(111, 111);
 		cc.deposita(100.0);
