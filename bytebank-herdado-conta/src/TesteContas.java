@@ -3,7 +3,7 @@ public class TesteContas {
 
 	public static void main(String[] args) {
 
-		ContaCorrente outra = null;
+		ContaCorrente outra = new ContaCorrente(222, 3495);
 		outra.deposita(200);
 					
 		ContaCorrente cc = new ContaCorrente(111, 111);
